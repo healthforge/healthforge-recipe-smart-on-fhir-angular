@@ -10,7 +10,7 @@ let fhirTestModule = angular.module('fhirTest', [
   "ngInject";
   $stateProvider
     .state('fhirTest', {
-      url: '/fhirTest',
+      url: '/fhirTest/:patientId',
       template: '<fhir-test></fhir-test>'
     });
 })

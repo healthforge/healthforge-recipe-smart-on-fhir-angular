@@ -16,4 +16,10 @@ config.plugins = config.plugins.concat([
   new webpack.HotModuleReplacementPlugin()
 ]);
 
+config.entry = {
+    main: ['./client/app/app.js'],
+    bootstrap: ['bootstrap-loader'],
+    fhirclient : ['fhirclient']
+};
+
 module.exports = config;

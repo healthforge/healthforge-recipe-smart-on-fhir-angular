@@ -4,11 +4,11 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'sourcemap',
-  entry: {
+  /*entry: {
     main: ['./client/app/app.js'],
     bootstrap: ['bootstrap-loader'],
     fhirclient : ['fhirclient']
-  },
+  },*/
   module: {
     loaders: [
         { test: /angular.js$/, loader: "imports?$=jquery" },

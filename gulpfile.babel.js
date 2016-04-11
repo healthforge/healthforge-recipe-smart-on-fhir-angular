@@ -15,6 +15,7 @@ import webpackDevMiddelware from 'webpack-dev-middleware';
 import webpachHotMiddelware from 'webpack-hot-middleware';
 import colorsSupported      from 'supports-color';
 import historyApiFallback   from 'connect-history-api-fallback';
+import proxy    from './proxy/proxy'
 
 let root = 'client';
 
@@ -113,3 +114,12 @@ gulp.task('component', () => {
 });
 
 gulp.task('default', ['serve']);
+
+gulp.task('proxy', (cb) => {
+  /*exec('node proxy/proxy.js', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });*/
+  proxy();
+});

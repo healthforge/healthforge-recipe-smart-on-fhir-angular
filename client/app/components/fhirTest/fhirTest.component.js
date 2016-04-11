@@ -4,11 +4,6 @@ import './fhirTest.styl';
 
 let fhirTestComponent = {
   restrict: 'E',
-  bindings: {
-  },
-  scope: {
-  	
-  },
   template,
   controller,
   controllerAs: 'vm'
