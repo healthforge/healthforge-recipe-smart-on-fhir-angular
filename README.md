@@ -2,19 +2,27 @@
 
 A recipe for creating an AngularJS SMART-on-FHIR app.
 
-Based on (https://github.com/AngularClass/NG6-starter)[https://github.com/AngularClass/NG6-starter].
+Based on https://github.com/AngularClass/NG6-starter.
 
 ##TL;DR
+
+Install `node` and `npm`, then the following dependencies:
+
+	npm install -g gulp karma karma-cli webpack
 
 For development:
 
 	npm install
-	grunt watch
+	gulp watch
+
+To run the development reverse proxy:
+
+	gulp proxy
 
 For production:
 
 	npm install
-	grunt build
+	gulp build
 
 ##Generators
 
