@@ -9,12 +9,16 @@ Based on (https://github.com/AngularClass/NG6-starter)[https://github.com/Angula
 For development:
 
 	npm install
-	grunt watch
+	gulp watch
+
+To run the development reverse proxy:
+
+	gulp proxy
 
 For production:
 
 	npm install
-	grunt build
+	gulp build
 
 ##Generators
 
