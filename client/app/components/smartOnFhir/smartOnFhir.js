@@ -26,17 +26,17 @@ class smartOnFhir {
 			// Production
 			console.log("--Production settings--");
 	        this.initialize({
-	          client_id: "f9NfXAEv42rgSNYwlRxQzM__zdMa",
+	          client_id: "5HsYz3hbBWzcQZMhNXnrfrDCbp0a",
 	          scope: "*",
-	          secret: "mOplQP6OcD1Vb9a9CGDjkakbf88a" 
+	          secret: "0jBMCpnZAP5PiQfBAWD8d8Smfv4a" 
 	        });
     	} else {
 	        // Development
 			console.log("--Development settings--");
 	        this.initialize({
-	        	client_id: "mANYk_sgPRL2KC7NPIgcAwih_5sa",
+	        	client_id: "V50ow8oIgViCBsLW5gvvXyCDjBIa",
 	        	scope: "*",
-	        	secret: "Z2t2CfiFIcJTXusv6zhNB724Wkoa"
+	        	secret: "EFdhhfiLum1hx9zNqD3HaPikmaQa"
 	        });
     	}
 
