@@ -6,6 +6,10 @@ Based on (https://github.com/AngularClass/NG6-starter)[https://github.com/Angula
 
 ##TL;DR
 
+Install `node` and `npm`, then the following dependencies:
+
+	npm install -g gulp karma karma-cli webpack
+
 For development:
 
 	npm install
