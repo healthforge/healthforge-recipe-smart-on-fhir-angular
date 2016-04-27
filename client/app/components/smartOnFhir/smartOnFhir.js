@@ -22,7 +22,7 @@ class smartOnFhir {
 
 		//console.log(settings);
 
-		if(false) {
+		if(process.env.NODE_ENV == 'production') {
 			// Production
 			console.log("--Production settings--");
 	        this.initialize({
