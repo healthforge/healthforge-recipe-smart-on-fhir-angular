@@ -2,7 +2,7 @@
 
 A recipe for creating an AngularJS SMART-on-FHIR app.
 
-Based on (https://github.com/AngularClass/NG6-starter)[https://github.com/AngularClass/NG6-starter].
+Based on https://github.com/AngularClass/NG6-starter.
 
 ##TL;DR
 
